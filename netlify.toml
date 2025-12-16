@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/:site/"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/subsites/*.json"
+  [headers.values]
+    Cache-Control = "no-cache"
