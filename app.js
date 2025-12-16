@@ -72,6 +72,7 @@ async function main() {
   const item = words[idx];
 
   document.getElementById("word").textContent = item.word ?? String(item);
+  document.getElementById("pronunciation").textContent=item.pronunciation? item.pronunciation:"";
   document.getElementById("meta").textContent = item.note ? item.note : "";
 }
 
