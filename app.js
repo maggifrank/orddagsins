@@ -14,7 +14,7 @@ function getSiteKey() {
   if (parts.length >= 1) return parts[0].toLowerCase();
 
   // 3) Default
-  return "en";
+  return "is";
 }
 
 // Get today's date as YYYY-MM-DD (visitor local time)
