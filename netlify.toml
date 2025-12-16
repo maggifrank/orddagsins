@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [[redirects]]
   from = "/:site/"
   to = "/index.html"
@@ -7,3 +8,14 @@
   for = "/subsites/*.json"
   [headers.values]
     Cache-Control = "no-cache"
+=======
+[[redirects]]
+  from = "/:site/"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/subsites/*.json"
+  [headers.values]
+    Cache-Control = "no-cache"
+>>>>>>> e9ec2376b1e1a25426aa9e0dd1130a80079f60ef
